@@ -57,7 +57,7 @@ td {
   border-top: 2px solid #000;
 }
 tbody tr:hover {
-  background-color: rgb(126,8,48,.25);
+  background-color: rgb(126,8,32,.25);
 }
 tr:nth-child(even) {background-color: #D1D1D1;}
 tr:nth-child(odd) {background-color: transparent;} /* don't even need this because it's default but whatever */
