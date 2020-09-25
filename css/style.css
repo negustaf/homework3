@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Andika&display=swap');
-
 body {
   color: #000000;
   font-size: 16px;
@@ -28,7 +26,7 @@ p {
 }
 a {
   font-size: 16px;
-  color: #B92751;
+  color: #B21F50;
   text-decoration-style: wavy;
 }
 a:focus {
@@ -44,8 +42,9 @@ table {
   min-width: 125px;
   padding: 10px;
   margin: auto;
+  vertical-align: middle;
   color: #FFFFFF;
-  background-color: #7e0830;
+  background-color: #7e0820;
   text-transform: uppercase;
 }
 .rowhead {
@@ -56,7 +55,7 @@ td {
   padding: 10px;
   border-top: 2px solid #000;
 }
-tr:hover {
+tbody tr:hover {
   background-color: rgb(126,8,48,.25);
 }
 tr:nth-child(even) {background-color: #D1D1D1;}
@@ -73,5 +72,6 @@ footer {
   min-height: 75px;
   /* keep footer at bottom of viewport when content doesn't reach bottom of viewport: */
   position: fixed;
+  left: 0;
   bottom: 0;
 }
