@@ -1,0 +1,77 @@
+body {
+  color: #000000;
+  font-size: 16px;
+  margin: 1.2em;
+  font-family: 'Andika', sans-serif;
+  background: url('../images/pigeon-background.JPEG');
+  background-color: #DDD;
+  background-size: cover ;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+main {
+  margin-bottom: 100px;
+}
+h1 {
+  color: #c12258;
+  font-size: 2em;
+  text-align: center;
+  line-height: 2;
+}
+caption {
+  margin: 5px 0px;
+}
+p {
+  padding-top: 15px;
+}
+a {
+  font-size: 16px;
+  color: #B21F50;
+  text-decoration-style: wavy;
+}
+a:focus {
+  border: 3px dashed #417243;
+}
+table {
+  text-align: center;
+  margin: auto;
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+.colhead {
+  min-width: 125px;
+  padding: 10px;
+  margin: auto;
+  vertical-align: middle;
+  color: #FFFFFF;
+  background-color: #7e0820;
+  text-transform: uppercase;
+}
+.rowhead {
+  border-right: 2px solid #000;
+  border-top: 2px solid #000;
+}
+td {
+  padding: 10px;
+  border-top: 2px solid #000;
+}
+tbody tr:hover {
+  background-color: rgb(126,8,48,.25);
+}
+tr:nth-child(even) {background-color: #D1D1D1;}
+tr:nth-child(odd) {background-color: transparent;} /* don't even need this because it's default but whatever */
+thead th:first-of-type {border-top-left-radius: 10px;}
+thead th:last-of-type {border-top-right-radius: 10px;}
+tbody tr:last-of-type th:first-of-type {border-bottom-left-radius: 10px;}
+tbody tr:last-of-type td:last-of-type {border-bottom-right-radius: 10px;}
+footer {
+  width: 100%;
+  background: #000000;
+  text-align: center;
+  color: #FFFFFF;
+  min-height: 75px;
+  /* keep footer at bottom of viewport when content doesn't reach bottom of viewport: */
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
